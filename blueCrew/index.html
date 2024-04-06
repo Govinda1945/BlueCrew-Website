@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>The Blue Crew</title>
+    <style>
+        a{
+          text-decoration: none;
+        }
+        
+        
+@media(max-width: 1199.5px){
+    /* custom css*/
+    .card{
+        padding: 2.5rem 1.875rem;
+    }
+
+    /* header */
+    .header_wrapper .navbar-nav .nav-link{
+        font-size: 1rem;
+    }
+
+    .banner_wrapper .container .card{
+      height: 90%;
+      width: 90%;
+    /* cursor: pointer; */
+    }
+
+    /* top banner */
+
+    .banner_wrapper{
+        width: 100%;
+    }
+
+    .banner_wrapper .animate-img .aimg1{
+        left: -12.125rem;
+    }
+
+    .banner_wrapper .animate-img .aimg2{
+        left: -13.125rem;
+    }
+
+    /* about */
+
+    .about_wrapper .card{
+      width: 100%;
+    }
+
+    /* Services */
+
+    .services_wrapper .card{
+      padding: 1.875rem 1.25rem;
+    }
+
+
+
+}
+
+@media(max-width: 991px){
+    /* custom css */
+    .wrapper{
+        padding: 3.125rem 0;
+    }
+
+    .main-btn{
+        font-size: .875rem;
+
+    }
+
+    h1{
+        font-size: 2.8125rem;
+        margin-bottom: .625rem;
+    }
+
+    h2{
+        font-size: 1.875rem;
+    }
+
+    h3{
+        font-size: 1.5625rem;
+    }
+
+    h4{
+        font-size: 1.25rem;
+    }
+
+    h5{
+        font-size: 1.125rem;
+        
+    }
+
+    p{
+        font-size: .875rem;
+        line-height: 1.35rem;
+    }
+
+    .card{
+        padding: 1.875rem 1rem;
+    }
+
+    .banner_wrapper .container .card{
+      height: 90%;
+      width: 90%;
+    /* cursor: pointer; */
+    }
+
+    /* navbar */
+
+    .header_scrolled{
+        height: auto;
+    }
+
+    .header_wrapper .menu-navbar-nav{
+        text-align: center;
+
+    }
+
+    .header_wrapper .nav-item .nav-link{
+        margin-top: .9375rem;
+    }
+
+    .banner_wrapper p{
+        max-width: 100%;
+    }
+
+    /* about */
+
+    .about_wrapper .about-clinic:nth-child(1),
+    .about_wrapper .about-clinic:nth-child(2){
+        margin-bottom: 1.5625rem;
+        
+    }
+
+    .about_wrapper .about-clinic:nth-child(2),
+    .about_wrapper .about-clinic:nth-child(4){
+        padding-left: 2.375rem;
+        
+    }
+
+    .services_wrapper .card{
+      padding: 1.875rem .875rem;
+    }
+
+    .footer_wrapper{
+      background-color: var(--primary-color);
+      padding-bottom: 0;
+    }
+
+}
+
+@media(max-width: 767px){
+    /* custom css */
+    .main-btn{
+        font-size: .875rem;
+
+    }
+
+    h1{
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    h5{
+        font-size: 1.25rem;
+        
+    }
+
+    .banner_wrapper .container .card{
+      height: 90%;
+      width: 90%;
+    /* cursor: pointer; */
+    }
+
+    /* services */
+
+    .services_wrapper .card{
+      text-align: center;
+    }
+
+    .footer_wrapper{
+      background-color: var(--primary-color);
+      padding-bottom: 0;
+    }
+
+    
+}
+
+@media(max-width:620px){
+    .banner_wrapper .animate-img .aimg1{
+        left: -10.6875rem;
+        width: 100%;
+        
+    }
+    
+    .banner_wrapper .animate-img .aimg2{
+        top: 5.562rem;
+        width: 80%;
+        margin-left: 12.5rem;
+       
+    }
+
+    .banner_wrapper .container .card{
+      height: 90%;
+      width: 90%;
+    /* cursor: pointer; */
+    }
+    
+    .home .card:hover{
+        -webkit-transform: translateY(-0.625rem);
+        transform: translateY(-0.625rem);
+    }
+    
+    .home .icon-box{
+        text-align: center;
+        margin: 0 auto 2.5rem;
+        width: 50%;
+    }
+    
+    .home .icon-box img{
+        width: 30%;
+    }
+    
+    .home .adjust{
+        height: 80%;
+        width: 100%;
+    }
+
+    .footer_wrapper{
+      background-color: var(--primary-color);
+      padding-bottom: 0;
+    }
+
+    .footer_wrapper>div{
+      padding: 0 1.875rem;
+    }
+    
+}
+
+@media(max-width: 350px){
+
+  /*services */
+
+  .services_wrapper .card{
+      padding: 1.875rem .875rem;
+    }
+
+  .about_wrapper .icon-box{
+    margin-bottom: .9375rem;
+  }
+
+  .about_wrapper .about-clinic:nth-child(2),
+  .about_wrapper .about-clinic:nth-child(4){
+    padding-left: .625rem;
+      
+  }
+
+  .banner_wrapper .container .card{
+      height: 90%;
+      width: 90%;
+    /* cursor: pointer; */
+    }
+
+  .footer_wrapper{
+      background-color: var(--primary-color);
+      padding-bottom: 0;
+    }
+
+}
+
+@media(max-width:425px){
+    .banner_wrapper .animate-img .aimg1{
+        left: -7.6875rem;
+        width: 100%;
+        
+    }
+    
+    .banner_wrapper .animate-img .aimg2{
+        width: 90%;
+        margin-left: 7.5rem;
+       
+    }
+
+    .banner_wrapper .container .card{
+      height: 90%;
+      width: 90%;
+    /* cursor: pointer; */
+    }
+
+    .wrapper .container .row{
+        margin-left: 0.2%;
+    }
+
+    .footer_wrapper{
+      background-color: var(--primary-color);
+      padding-bottom: 0;
+    }
+}
+
+h1{
+    font-size: 3.875rem;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+    color: var(--text-white);
+    font-family: var(--secondary-font);
+
+}
+
+h2{
+    font-size: 2.875rem;
+    font-weight: 600;
+    color: var(--text-white);
+    font-family: var(--secondary-font);
+
+}
+
+h3{
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: var(--text-white);
+    font-family: var(--secondary-font);
+}
+
+h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2.25rem;
+    color: var(--text-black);
+    font-family: var(--secondary-font);
+}
+
+h5{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    color: var(--primary-black);
+    margin-bottom: .9375rem;
+    font-family: var(--secondary-font);
+}
+
+h6{
+    font-size: .875rem;
+    font-weight: 300;
+    color: var(--text-black);
+    margin-bottom: .9375rem;
+    font-family: var(--secondary-font);
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 1rem;
+    color: var(--text-gray);
+    line-height: 1.625rem;
+}
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+
+    <!-- Navbaar section-->
+
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg" >
+            <div class="container" style="width: 100%;">
+              <a class="navbar-brand" href="#">
+                <img src="images/logo.png" class="img-fluid" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="fas fa-stream"></i>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="nav menu-navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#opportunity">Opportunity</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#youtube">Youtube</a>
+                  </li>
+                  <li class="nav-item mt-lg-0">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+
+
+    <!-- Navbaar section exit-->
+
+    <!--home section-->
+
+    <section id="home" class="home">
+      <div class="banner_wrapper wrapper">
+        <div class="container">
+          <div class="row align-items-center">
+
+            <div class="col-md-6 order-md-1 order-2">
+              <h3 class="demo3">dream,breath,perform</h3>
+              <h1 class="demo1">The Blue Crew</h1>
+              <p>Join us to Learn the language of melodies and  rhythms at our music classes! Unleash your musical talent with expert guidance and immerse  yourself in the harmonious world of notes and chords. Join us for a transformative musical journey filled with creativity, passion, and joy!
+              </p>
+              <a href="https://forms.gle/tv9x1m3sn43oTf3e8" class="main-btn mt-4 fill-btn">Register</a>
+              <a href="#contact" class="main-btn mt-4 ms-3">Contact us</a>
+
+            </div>
+
+            <div class="col-md-6 order-md-2 order-1 mb-md-0 mb-5">
+              <div class="top-right-sec">
+                <div class="animate-img">
+                  <img class="aimg1" src="images/imag1.png" >
+                  <img class="aimg2" src="images/imag2.png" >
+                </div>
+                <img class="img-fluid ms-xl-5 " src="images/imag3.png" >
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="wrapper pb-0 ">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 mb-4 ">
+              <div class="card mx-auto text-center">
+                <div class="icon-box">
+                  <img src="images/professional guidance.png" alt="">
+                </div>
+                <div class="adjust">
+                  <h4>Professional Guidance</h4>
+                  <p>Expert guidance for personalized music lessons, enhancing skills and talent.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card mx-auto text-center">
+                <div class="icon-box">
+                  <img src="images/Diverse Music Education.jpg" alt="">
+                </div>
+                <div class="adjust">
+                  <h4>Diverse Music Education</h4>
+                  <p>Explore diverse music genres and instruments and learn multiple music types.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card mx-auto text-center">
+                <div class="icon-box">
+                  <img src="images/Skill Development.png" alt="">
+                </div>
+                <div class="adjust">
+                  <h4>Skill Development</h4>
+                  <p>Acquire theory, technique, and confidence for proficient musicianship.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card mx-auto text-center">
+                <div class="icon-box">
+                  <img src="images/Stress Relief.png" alt="">
+                </div>
+                <div class="adjust">
+                  <h4>Stress Relief</h4>
+                  <p>Music's therapeutic benefits reduce stress and uplift emotions and help to being well.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card mx-auto text-center">
+                <div class="icon-box">
+                  <img src="images/Cognitive Development.jpg" alt="">
+                </div>
+                <div class="adjust">
+                  <h4>Cognitive Development</h4>
+                  <p>Boost memory, concentration, and problem-solving.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card mx-auto text-center">
+                <div class="icon-box">
+                  <img src="images/Performance Opportunities.png" alt="">
+                </div>
+                <div class="adjust">
+                  <h4>Performance Opportunities</h4>
+                  <p>Music learning improves memory, concentration, and skills.</p>
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+
+    </section><br><br>
+
+    <!-- about section -->
+    <!-- <section >
+      <h1 class="text-primary fw-bold  text-center">About Blue Crew Music Classes</h1>
+    </section> -->
+    <section id="about"  class="about_wrapper wrapper">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-6 mb-mb-0 mt-5 mb-5">
+            <div class="position-relative mt-5">
+              <img src="images/about_image.png" class="img-fluid img1">
+              <img src="images/about-image2.png" class="img-fluid mt-5 img1">
+            </div>
+
+          </div>
+
+          <div class="col-md-6 text-center text-dark text-md-start p-5 mt-5">
+            <h2 class="text-primary text-center mb-5">Welcome To The Family</h2>
+            
+            <p>Welcome to <span class="fw-bold text-dark">Blue Crew Music</span> Classes, where the magic of music comes alive! Our esteemed platform is dedicated to providing top-notch music education and nurturing the talents of aspiring musicians of all ages. With a team of highly skilled and passionate instructors, we offer a diverse range of classes that cater to various musical interests and skill levels. Whether you're a beginner seeking a solid foundation or an experienced musician aiming to refine your craft, Blue Crew Music Classes is the ultimate destination to embark on a melodious journey of learning and self-expression. Join us today and unlock the true potential of your musical prowess!</p>
+            <div class="mt-5 card">
+              <div class="about-clinic">
+                <h4>500+</h4>
+                <p>Happy Participants</p>
+              </div>
+              <div class="about-clinic">
+                <h4>10+</h4>
+                <p>Qualified Artist</p>
+              </div>
+              <div class="about-clinic mt-5">
+                <h4>5+</h4>
+                <p>Years Experience</p>
+              </div>
+              <div class="about-clinic mt-5">
+                <h4>25+</h4>
+                <p>Music Categories</p>
+              </div>
+              <span class="line-1"></span>
+              <span class="line-2"></span>
+
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- about section exit -->
+
+    <!-- Services section start -->
+
+    <section id="services" class="services_wrapper wrapper" style="padding-top: 13%;">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center mb-5">
+            <h3>Our Services</h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <div class="icon-box">
+                <img src="images/singing_image-removebg-preview.png" alt="">
+              </div>
+              <div>
+                <h4>Singing Classes</h4>
+                <p>Basic Singing Structure, Classical, Contemporary,Light Music Ghazal Singing.</p>
+                <a href="https://en.wikipedia.org/wiki/Singing#" class="main-btn mt-4">Read More</a>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <div class="icon-box">
+                <img src="images/piano_image-removebg-preview.png" alt="">
+              </div>
+              <div>
+                <h4>Piano Classes</h4>
+                <p>Alankaar, Basic Songs, National Anthem, Bllywood Songs, Left Hand Practice chords.</p>
+                <a href="https://en.wikipedia.org/wiki/Piano" class="main-btn mt-4">Read More</a>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <div class="icon-box">
+                <img src="images/guitar_image-removebg-preview.png" alt="">
+              </div>
+              <div>
+                <h4>Guitar Classes</h4>
+                <p>Finger exercise, Alankaar, Bollywood Songs, National Anthem.</p>
+                <a href="https://en.wikipedia.org/wiki/Guitar" class="main-btn mt-4">Read More</a>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <div class="icon-box">
+                <img src="images/tabla_image-removebg-preview.png" alt="">
+              </div>
+              <div>
+                <h4>Tabla Classes</h4>
+                <p>Pair of hand-played drums, central to Indian classical music, characterized by intricate rhythms. </p>
+                <a href="https://en.wikipedia.org/wiki/Tabla" class="main-btn mt-4">Read More</a>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <div class="icon-box">
+                <img src="images/pakhvaj_image-removebg-preview.png" alt="">
+              </div>
+              <div>
+                <h4>Pakhavaj Classes</h4>
+                <p>Traditional double-headed drum It is used in Indian classical music, particularly in Dhrupad style.</p>
+                <a href="https://en.wikipedia.org/wiki/Pakhavaj" class="main-btn mt-4">Read More</a>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <div class="icon-box">
+                <img src="images/harmonium_image-removebg-preview.png" alt="">
+              </div>
+              <div>
+                <h4>Harmonium Classes</h4>
+                <p>Portable keyboard instrument producing sound with air, used in Indian classical and devotional music.</p>
+                <a href="https://simple.wikipedia.org/wiki/Harmonium" class="main-btn mt-4">Read More</a>
+              </div>
+            </div>
+
+          </div>
+
+
+          
+
+
+
+
+        </div>
+      </div>
+
+
+    </section>
+
+    <!-- Services section Exit -->
+
+
+    <!-- Team section Start -->
+
+    <section id="team" class="team_wrapper wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center mb-5">
+            <h3 class="text-black">Our Artists</h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card rounded-3">
+              <div class="team-img">
+                <img src="images/sarthak.jpg" class="img-fluid">
+              </div>
+              <div class="team-info mt-2 pt-4 text-center">
+                <h5>SARTHAK BOTHARA</h5>
+                <p>#synthesiser
+                  #Indian classical singing
+                  #harmonium</p>
+
+              </div>
+            </div>
+
+          </div>
+
+          
+
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card rounded-3">
+              <div class="team-img">
+                <img src="images/sukalp.jpg" class="img-fluid">
+              </div>
+              <div class="team-info mt-2 pt-4 text-center">
+                <h5>SUKALP KANKARIYA</h5>
+                <p>#Octopad 
+                  #Drums 
+                  #Clap-box 
+                  #Guitar</p>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card rounded-3">
+              <div class="team-img">
+                <img src="images/saurabh.jpg" class="img-fluid">
+              </div>
+              <div class="team-info pt-4 text-center">
+                <h5>SAURABH DESHMUKH</h5>
+                <p>#Bollywood singing
+                  #Indian classical singing 
+                  #semiclassical 
+                  #Bhajan
+                  #harmonium</p>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card rounded-3">
+              <div class="team-img">
+                <img src="images/manohar.jpg" class="img-fluid">
+              </div>
+              <div class="team-info mt-3 pt-4 text-center">
+                <h5> MANOHAR NARWEDE</h5>
+                <p>#Tabla
+                  #Pakhvaj
+                  #Dholki
+                  #Tall
+                  </p>
+
+              </div>
+            </div>
+
+          </div>
+
+
+          
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card rounded-3">
+                <div class="team-img">
+                  <img src="images/govinda.jpg" class="img-fluid">
+                </div>
+                <div class="team-info mt-4 pt-4 text-center">
+                  <h5>GOVINDA CHASTWE</h5>
+                  <p>#Software Development
+                    #Maintainance Engineer</p>
+  
+                </div>
+              </div>
+  
+            </div>
+
+
+            
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card rounded-3">
+                  <div class="team-img">
+                    <img src="images/kardile.jpg" class="img-fluid">
+                  </div>
+                  <div class="team-info mt-2 pt-4 text-center">
+                    <h5>KARDILE PRADIP</h5>
+                    <p>#Graphics Design( Logo Design)
+                      (Marathi & English Banar) (All Types Video Creator)</p>
+    
+                  </div>
+                </div>
+    
+              </div>
+
+
+
+        </div>
+      </div>
+
+
+    </section>
+
+
+    <!-- Team section Exit -->
+
+
+
+
+
+    <!-- Opportunity section Start -->
+
+    <section id="opportunity" class="opportunity_wrapper wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center mb-5">
+            <h3 class="text-white">We Will Provide Opportunities</h3>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card rounded-3">
+              <div class="opportunity-img">
+                <img src="images/gandharva.jpg" class="img-fluid">
+              </div>
+              <div class="opportunity-info mt-2 pt-4 text-center">
+                <h5>GANDHARVA EXAM</h5>
+                <p>Gandharva Vidyalaya is an institution in India that offers music and dance education. It conducts examinations in various disciplines of Indian classical music, classical dance, and folk arts.</p>
+
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card rounded-3">
+              <div class="opportunity-img">
+                <img src="images/studio.jpg" class="img-fluid">
+              </div>
+              <div class="opportunity-info mt-2 pt-4 text-center">
+                <h5>STUDIO RECORDING</h5>
+                <p>Studio recording offers precision, clarity, control, consistency, quality, versatility, professionalism, flexibility, efficiency, and creativity.</p>
+
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card rounded-3">
+              <div class="opportunity-img">
+                <img src="images/youtube.jpg" class="img-fluid">
+              </div>
+              <div class="opportunity-info mt-2 pt-4 text-center">
+                <h5>YOUTUBE VIDEO</h5>
+                <p>You can create a YouTube video as part of the blue crew music classes, and it will be added to the blue crew channel on YouTube.</p>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+
+    </section>
+
+
+    <section id="youtube" class="youtube_wrapper wrapper">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-sm-12 text-center mb-5">
+            <h3 class="text-black">Youtube Channels</h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-sm-6 mb-4" style="margin: auto;">
+            <div class="card rounded-3">
+              <div class="opportunity-img">
+                <img src="images/youtube1.jpg" class="img-fluid">
+              </div>
+              <div class="opportunity-info mt-2 pt-4 text-center">
+                <h5>YOUTUBE CHANNEL 1</h5>
+                <a href="https://www.youtube.com/@majesticsoul4263" class="main-btn fill-btn">Goto Channel</a>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-md-6 col-sm-6 mb-4" style="margin: auto;">
+            <div class="card rounded-3">
+              <div class="opportunity-img">
+                <img src="images/youtube2.jpg" class="img-fluid">
+              </div>
+              <div class="opportunity-info mt-2 pt-4 text-center">
+                <h5>YOUTUBE CHANNEL 2</h5>
+                <a href="https://www.youtube.com/@BlueCrew-rm2mu/featured" class="main-btn fill-btn">Goto Channel</a>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        
+
+        </div>
+      </div>
+
+
+
+
+
+    </section>
+
+
+    <!-- Opportunity section Exit -->
+
+    <!-- reviews section Start -->
+
+    <!-- <section id="reviews" class="reviews_wrapper wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center mb-5">
+            <h3 class="text-black">Public Feedback</h3>
+          </div>
+        </div>
+
+        
+
+        </div>
+      </div>
+
+    </section> -->
+
+
+    <!-- reviews section Exit -->
+
+
+
+
+
+
+
+
+    <!-- Contact section Start -->
+
+    <section id="contact" class="footer_wrapper wrapper">
+      <div class="container pb-3">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 mb-4">
+            <h5>Classes Location</h5>
+            <p class="ps-0">
+              Address:- Raskar Palace, Shop no 10, near Regent Fitness Club, Bibwewadi, Pune 411037.
+            </p>
+            <div class="contact-info">
+              <ul class="list-unstyled">
+                <li><a href="#"><i class="fa-solid fa-phone-volume"></i>+91-7507225533, +91-9373411088.</a></li>
+                <li><a href="#"><i class="fa-brands fa-square-whatsapp"></i>+91-8999989373.</a></li>
+                <li><a href="#"><i class="fa-solid fa-envelope"></i>bluecrew0710@gmail.com</a></li>
+                <li><a href="https://www.youtube.com/@majesticsoul4263"><i class="fa-brands fa-youtube"></i></i>YouTube Channel - 1</a></li>
+                <li><a href="https://www.youtube.com/@BlueCrew-rm2mu"><i class="fa-brands fa-youtube"></i></i>YouTube Channel - 2 </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 mb-4">
+            <h5>Newsletter</h5>
+            <div class="form-group mb-4">
+              <input type="email" class="form-control bg-transparent" placeholder="Enter Your Email Here">
+              <button type="submit" class="main-btn rounded-2 mt-3 border-white text-white">Subscribe</button>
+            </div>
+
+            <h5>Stay Connected</h5>
+            <ul class="social-network d-flex align-items-center p-0">
+              <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="https://www.instagram.com/bluecrew174/?igshid=MzRlODBiNWFlZA%3D%3D"><i class="fa-brands fa-square-instagram"></i></a></li>
+              <li><a href="https://twitter.com/bluecrew0710?s=11 "><i class="fa-brands fa-square-twitter"></i></a></li>
+              <li><a href="#contact"><i class="fa-brands fa-google-plus-g"></i></a></li>
+            </ul>
+
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container-fluid copyright-section">
+        <p class="p-0">Copyright <a href="#">© bluecrew0710</a> All Rights Reserved</p>
+
+      </div>
+
+    </section>
+
+
+
+
+
+    <!-- Contact section Exit -->
+
+
+
+
+
+    <!-- <script>
+      let nav = document.querySelector(".navbar");
+      window.onscroll = function(){
+        if(document.documentElement.scrollTop>100){
+            nav.classList.add("header-scrolled");
+        }else{
+            nav.classList.remove("header-scrolled");
+        }
+      }
+    </script> -->
+
+
+    <script src="main.js"></script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+</body>
+</html>
